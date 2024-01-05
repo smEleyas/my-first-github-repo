@@ -12,9 +12,37 @@
     height: 250px;
     width: 500px;
     background-color: green;
+    position: relative;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -40%);
 }
 
 .flag-circle {
     height: 130px;
     width: 130px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+.flag-handle{
+    height: 200px;
+    width: 40px;
+    background-color: black;
+    position: relative;
+    top: 90%;
+    border-top-right-radius: 30px;
+}
+.flag-footer{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%);
+
 }
